@@ -13,10 +13,10 @@ var Contact = React.createClass({
       <p className={'contactLabel'}>
         Nazwisko: {this.props.contact.lastName}
       </p>
-      <a href={'mailto:' + this.props.item.email}>
+      <a className={'contactEmail'} href={'mailto:' + this.props.item.email}>
         {this.props.item.email}
       </a>
       </div>
-    )
-  },
+    );
+  }
 });
