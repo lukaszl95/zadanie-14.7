@@ -3,7 +3,7 @@ var Contact = React.createClass({
     item: React.PropTypes.object.isRequired,
   },
 
-  render: function() {
+  ReactDOM.render{
       <div className={'contactItem'}>
       <img className={'contactImage'} src={'link-do-obrazka.png'}/>
       <p className={'contactLabel'}>
