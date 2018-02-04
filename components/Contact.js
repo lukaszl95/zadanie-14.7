@@ -4,7 +4,6 @@ var Contact = React.createClass({
   },
 
   render: function() {
-    return (
       <div className={'contactItem'}>
       <img className={'contactImage'} src={'link-do-obrazka.png'}/>
       <p className={'contactLabel'}>
@@ -17,6 +16,5 @@ var Contact = React.createClass({
         {this.props.item.email}
       </a>
       </div>
-    )
   },
 });
